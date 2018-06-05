@@ -1,0 +1,53 @@
+/*=========== RESET ==========*/
+* {margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300; box-sizing: border-box;}
+body {background-color: #fefefe;}
+a {text-decoration: none;}
+ul {list-style: none;}
+img {max-width: 100%;}
+header, main, footer {padding-left: 300px!important;}
+
+/*========== DEFINES =================*/
+.no-margin-bottom {margin-bottom:0px!important;}
+.default-color-1 {background-color:#0097a7!important;}
+.default-color-2 {background-color:#4caf50!important;}
+.default-color-3 {background-color:#fefefe!important;}
+.default-color-4 {background-color:#9e9e9e!important;}
+.default-text-color-1 {color: #c62828 !important;}
+.default-text-color-2 {color: #fefefe !important;}
+.default-text-color-3 {color: #444 !important;}
+
+/*========== GERAL =================*/
+.cursor-pointer{cursor: pointer;}
+.z-back{z-index: -1!important;}
+
+/*=========== PAGUESEGURO HORIZONTAL ==========*/
+.pague_seguro_horizontal{padding-bottom: 20px; border-bottom: solid 1px #ddd!important;}
+
+/*======== PRODUTO ================*/
+.produto{padding-bottom: 20px; padding-top: 20px; border-bottom: solid 1px #ddd; cursor: pointer;}
+.produto_col {margin: 0 auto; width: 100%;}
+.produto_descricao{font-size: 15px!important;}
+.produto_codbarras{font-size: 12px!important;}
+.produto_marca{font-size: 13px!important; font-weight: 400; margin-top: 6px; margin-bottom: 6px;}
+.produto_mk{font-size: 12px!important;}
+.produto_preco{font-size: 20px!important; font-weight: 700;}
+
+/* ========== RESPONSIVO ==========*/
+@media only screen and (min-width: 601px) {
+}
+
+@media only screen and (min-width: 601px) {
+  .produto_col {width: 90%; max-width: 1280px;}
+  .produto_descricao{font-size: 17px!important;}
+  .produto_marca{font-size: 15px!important; font-weight: 400; margin-top: 10px; margin-bottom: 10px;}
+  .produto_preco{font-size: 25px!important; font-weight: 700;}
+  .produto_image{max-height: 150px!important; }
+}
+
+@media only screen and (min-width: 993px) {
+  .produto_col {width: 80%; max-width: 1280px;}
+  .produto_descricao{font-size: 19px!important;}
+  .produto_marca{font-size: 15px!important; font-weight: 400; margin-top: 15px; margin-bottom: 15px;}
+  .produto_preco{font-size: 30px!important; font-weight: 700;}
+}
+

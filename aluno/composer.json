@@ -1,0 +1,22 @@
+{
+    "name": "e-commerce",
+    "description": "e-commerce for eletrobidu",
+    "authors": [
+        {
+            "name": "Filipe Julio Cardoso (FJC)",
+            "email": "filipe@eletrobidu.com.br"
+        }
+    ],
+   "autoload": {
+      "psr-4": {
+         "App\\": "App"
+      },
+        "files": [
+            "app/helpers.php",
+             "vendor/fjc/Collection.php"
+        ]
+   },
+    "require": {
+        "slim/slim": "^3.0"
+    }
+}

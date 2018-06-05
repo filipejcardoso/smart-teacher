@@ -1,0 +1,24 @@
+/*=========== CABECALHO ==========*/
+.cabecalho{padding: 0px!important;}
+.cabecalho_televendas{margin:0px!important; font-weight: 1000; height: 55px;}
+.cabecalho_televendas_logo{line-height: 3!important;}
+
+/* ========== RESPONSIVO ==========*/
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (max-width: 600px) {
+}
+/* SMALL DEVICES - TABLETS*/
+@media screen and (min-width: 601px) {
+}
+/* LARGE DEVICES - WIDE SCREENS*/
+@media screen and (min-width: 993px) {
+}
+/* LARGE DEVICES - WIDE SCREENS*/
+@media screen and (min-width: 1250px) {
+}
+
+
+
+
+
+

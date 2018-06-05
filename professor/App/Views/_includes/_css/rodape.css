@@ -1,0 +1,15 @@
+.rodape_social{margin: 5px;}
+.rodape_pague_seguro{padding-bottom: 20px;padding-top: 20px; border-bottom: solid 1px #ddd; border-top: solid 1px #ddd;}
+
+/* ========== RESPONSIVO ==========*/
+/* SMALL DEVICES - SMARTPHONES */
+@media screen and (max-width: 600px) {
+}
+/* SMALL DEVICES - TABLETS*/
+@media screen and (min-width: 601px) {
+/*=========== INDEX LOGIN ==========*/
+}
+/* LARGE DEVICES - WIDE SCREENS*/
+@media screen and (min-width: 993px) {
+/*=========== INDEX LOGIN ==========*/
+}

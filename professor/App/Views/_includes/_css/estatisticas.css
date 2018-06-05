@@ -1,0 +1,28 @@
+.box_estatisticas_info{background-color: #eee; margin: 0 auto; margin-top:50px; margin-bottom:50px; width: 700px;}
+
+.alunos{padding: 20px!important;}
+
+table.alunos_tabela > thead > tr {
+  background-color: #f2f2f2;
+}
+
+table.alunos_tabela > tbody > tr:nth-child(odd) {
+  background-color: #c3dee1;
+}
+
+table.alunos_tabela > tbody > tr > td >i {
+  cursor: pointer!important;
+}
+
+table.alunos_tabela > tbody > tr > td >a {
+  margin-top: 1px!important;
+  margin-left: 5px!important;
+  margin-right: 1px!important;
+  padding: 0px!important;
+  padding-left: 10px!important;
+  padding-right: 15px!important;
+}
+
+table.alunos_tabela > tbody > tr:hover {
+  background-color: #639fa5;
+}
