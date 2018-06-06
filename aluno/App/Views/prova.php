@@ -58,7 +58,7 @@ if(!isset($_SESSION))
             <div class="col s12">
               <pre style="margin:0px!important; padding: 0px!important;">
               <code class="java">
-                <?php echo $questao_texto->getCodigo(); ?>
+                <?php echo "<br/>".$questao_texto->getCodigo(); ?>
               </code>
               </pre>
             </div>
